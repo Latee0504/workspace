@@ -1,0 +1,55 @@
+/* 상자 중앙으로 옮기기 */
+body{
+  font-size: 22px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title{
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+.container{
+  width: 1200px;
+  height: 500px;
+  /* 
+  첫번째 : x축으로의 그림자 이동
+  두번째 : y축으로의 그림자 이동
+  세번째 : 그림자의 퍼짐 정도
+
+   */
+  box-shadow: 0px 0px 6px black;
+}
+.content{
+  display: flex;
+}
+
+.content > .login{
+  background-color: rgb(235, 233, 233);
+  margin-top: 35px;
+  margin-left: 32px;
+  width: 650px;
+  height: 300px;
+  box-shadow: 0px 0px 3px black;
+}
+
+.content > .feature{
+  margin-top: 35px;
+  margin-left: 32px;
+}
+
+.feature > .link{
+  margin-top: 25px;
+  height: 40px;
+  background-color: yellow;
+  text-align: center;
+}
+.feature > div > i{
+  color: rgb(0, 172, 0);
+}
+.feature > .call{
+  color: rgb(0, 172, 0);
+  text-align: center;
+}

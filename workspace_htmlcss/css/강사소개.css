@@ -1,0 +1,49 @@
+body{
+  background-color: rgb(31, 31, 31);
+}
+.container{
+  width: 1000px;
+  height: 1200px;
+  background-color: white;
+  margin: 20px auto;
+  text-align: center;
+
+}
+.container > div:nth-child(2) {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.container > div:nth-child(3) {
+  width: 70%;
+  margin: auto;
+  font-size: 0.8rem;
+}
+
+.container > div:nth-child(2) > span{
+  font-weight: bold;
+  color: skyblue;
+}
+.container > div:first-child > div > button{
+  background-color: red;
+  border-radius: 10%;
+  outline: none;
+  border: none;
+  
+}
+.image{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap : 10px 10px;
+  overflow: hidden;
+
+}
+
+.image div{
+  border: 1px solid red;
+}
+
+.image img{
+
+}

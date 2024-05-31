@@ -1,0 +1,63 @@
+.container{
+  width: 500px;
+  margin: 50px auto;
+}
+
+.menu{
+  display: flex;
+}
+
+.menu > li{
+  width: 150px;
+  text-align: center;
+  padding : 12px 0px;
+  background-color: black;
+  
+  position: relative;
+}
+
+.menu > li:after{
+  content: "|";
+  color : white;
+  position : absolute;
+  right: 0px;
+}
+
+.menu > li:last-child:after{
+  content : none;
+}
+
+
+.menu a{
+  color: white;
+  text-decoration: none;
+
+}
+
+.sub-menu{
+  position: absolute;
+  top: 43px;
+  left: 0px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  /* opacity : 0; */
+  /* display: none; */
+  /* display 속성 바뀌는 것은 transition 불가 */
+  max-height: 0px;
+  transition: all 0.7s;
+}
+
+.sub-menu > li{
+  margin: 8px 0px;
+
+}
+
+.sub-menu > li:hover{
+  font-weight: 600;
+}
+
+.menu > li:hover .sub-menu{
+  max-height: 200px;
+  /* display: block; */
+  /* opacity: 1; */
+}

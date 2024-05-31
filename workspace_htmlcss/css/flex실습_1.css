@@ -1,0 +1,29 @@
+.container{
+  height: 200px;
+  width: 600px;
+  border: 1px solid black;
+}
+.container > div{
+  border: 1px solid red;
+}
+.header{
+}
+
+.body{
+  display: flex;
+}
+
+.body > div{
+  height: 300px;
+  flex-direction: row;
+}
+.footer{
+  height: 100px;
+}
+
+.main:nth-child(1){
+  flex-basis: 20%;
+}
+.main:nth-child(1){
+  flex-basis: 80%;
+}

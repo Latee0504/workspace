@@ -1,0 +1,112 @@
+.container{
+  margin: 80px auto;
+  width: 700px;
+  height: 300px;
+  box-shadow: 0px 0px 4px lightgray;
+  padding: 24px 16px;
+  border-radius: 10px;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 220px;
+
+}
+/* .content > div{
+
+} */
+
+input[type="text"], 
+input[type="password"]{
+  display: block;
+  margin-top: 4px;
+  margin-bottom: 8px;
+  width: 100%;
+  padding: 4px 4px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+}
+
+input[type="text"]:focus, 
+input[type="password"]:focus{
+  border: 1px solid lightcoral;
+  outline: none;
+}
+
+.login-form{
+  width: 45%;
+  padding: 10px;
+  background-color: #e6e6e6;
+  border-radius: 4px;
+  box-shadow: 0px 0px 4px rgb(134, 134, 134);
+}
+
+.intro{
+  width: 45%;
+}
+
+label{
+  font-weight: bold;
+  font-size: 0.8rem;
+  /* margin-bottom: 10px; */
+}
+
+.btn-div{
+  margin-top:8px;
+}
+
+button{
+  color: white;
+  background-color: rgb(107, 107, 255);
+  /* outline: none; */
+  border: none;
+  width: 100px;
+  padding: 3px 0px;
+  border-radius: 4px;
+}
+
+button:hover{
+  color:rgb(230, 230, 230);
+  background-color: rgb(97, 97, 245);
+  cursor : pointer;
+}
+
+.intro > h4{
+  margin-bottom: 6px;
+}
+
+.intro li{
+  font-size: 0.8rem;
+  margin-bottom: 4px;
+}
+
+.intro li > i{
+  color: lightgreen;
+  font-size: 0.7rem;
+}
+
+.intro a{
+  background-color: rgb(255, 217, 0);
+  text-decoration: none;
+  color: white;
+  display: block;
+  /* width: 100%; */
+  border-radius: 4px;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 4px 0px;
+}
+
+p{
+  color: green;
+  text-align: center;
+  font-size: 0.8rem;
+  margin: 6px 0px;
+}
+
+input[type="checkbox"]{
+  position:relative;
+  top:1.1px
+}

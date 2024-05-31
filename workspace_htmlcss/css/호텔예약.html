@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="호텔예약.css">
+</head>
+
+<body>
+    <div class="page">
+      <img src="house.jpg">
+
+      <div class="title">
+        <div>Green Hotel 4th floor suite room</div>
+        <div>$599,999</div>
+        <div>with terrace & wine bar</div>
+      </div>
+
+      <hr>
+
+      <div class="room">
+        4 Bedrooms 3 Bathrooms
+      </div>
+
+      <hr>
+
+      <div class="infor">
+        Real Estate Agent
+      </div>
+
+      <div class="info">
+        <img src="face-01.jpg" class="face">
+        <div>
+          <div>Sandy Foxx</div>
+          <div>052-7777-8888</div>
+        </div>
+          <button type="button">INQUIRE</button>
+      </div>
+    </div>
+
+  <script>
+    const i_tag = document.querySelector('.img-div i');
+    i_tag.addEventListener('click', (e) => {
+      e.target.classList.toggle('fa-regular');
+      e.target.classList.toggle('fa-solid');
+    });
+  </script>
+</body>
+</html>

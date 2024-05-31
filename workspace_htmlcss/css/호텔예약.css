@@ -1,0 +1,61 @@
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: aquamarine;
+}
+.page{
+  width: 360px;
+  margin: 50px auto;
+  border-radius: 15px;
+  background-color: white;;
+}
+img{
+  width: 100%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.title, .room, .infor,.info{
+  padding : 4px
+}
+
+.title > div:nth-child(1){
+  font-weight: bold;
+}
+.title >div:nth-child(2){
+  color: rgb(250, 133, 23);
+  font-weight: bold;
+}
+.title > div:nth-child(3){
+  color: gray;
+}
+
+.room{
+  font-weight: bold;
+  text-align: center;
+}
+.face{
+  width: 45px;
+  border-radius: 50%;
+}
+
+.info{
+  display: flex;
+}
+.info > div >div:nth-child(1){
+  font-weight: bold;
+}
+
+button{
+  background-color: rgb(89, 230, 89);
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+}
+button:hover{
+  background-color: rgb(5, 192, 5);
+  color: rgb(236, 234, 234);
+}

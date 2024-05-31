@@ -1,0 +1,17 @@
+.p1{
+  color: red;
+  background-color: black;
+}
+
+/* 태그보다 클래스가 우선 순위가 더 높다 */
+div{
+  color: aqua;
+  background-color: blueviolet;
+}
+.d1{
+  color: blue;
+}
+
+#d1{
+  color: red;
+}

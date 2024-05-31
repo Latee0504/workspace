@@ -1,0 +1,40 @@
+.p1{
+  /* 테두리 */
+  border: 3px solid black;
+  /* 바깥 여백 */
+  margin: 30px;
+  /* 안쪽 여백 */
+  padding: 20px;
+}
+
+.p2{
+border: 3px solid red;
+margin-left: 30px;
+padding-top: 15px;
+}
+
+.p3{
+  border: 3px dotted violet;
+  /* 12시부터 시계방향 여백 설정 */
+  padding: 5px 10px 15px 20px;
+  /* 50 -> 상하, 20-> 좌우 여백 설정 */
+  margin: 50px 20px;
+}
+
+.p4{
+  border: 1px solid black;
+  width: 250px;
+  padding: 10px;
+  height: 150px;
+  /* 
+  태그의 너비와 높이 등등은 얼마인가? 272px, 172px
+  -> 자체 너비or높이 + 테두리 + 안쪽여백*2(양쪽)
+  -> width or height + border + padding*2
+   */
+}
+.a1{
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  margin: 50px 50px;
+}

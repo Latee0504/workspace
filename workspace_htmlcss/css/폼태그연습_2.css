@@ -1,0 +1,46 @@
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  width: 900px;
+}
+
+table, tr,td {
+  border: 1px solid black;
+}
+
+td{
+  padding: 6px;
+}
+
+.title-tr{
+  background-color: aqua;
+  text-align: center;
+}
+
+.title-tr span{
+  font-weight: bold;
+}
+
+.title-tr > td > span > span{
+  color: red;
+  font-style: italic;
+  font-size: 0.9rem;
+}
+ 
+table > tbody > tr > td:first-child{
+  text-align: center;
+}
+
+.small{
+  width:70px
+}
+.red-font{
+  color:red;
+}
+table{
+  margin: auto;
+}
+.button{
+  margin-top: 10px;
+  text-align: center;
+}
