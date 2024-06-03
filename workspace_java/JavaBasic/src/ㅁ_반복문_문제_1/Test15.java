@@ -16,6 +16,6 @@ public class Test15 {
             }
             i++;
         }
-        System.out.println("짝수의 개수 : " + count);
+        System.out.println("1 부터 입력한 정수 까지의 짝수 개수 : " + count);
     }
 }
