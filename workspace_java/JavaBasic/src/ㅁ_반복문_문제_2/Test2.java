@@ -14,11 +14,23 @@ public class Test2 {
         System.out.print("두 번째 정수 입력 : ");
         int num = sc.nextInt();
 
-        i += 1;
+        int max;
+        int min;
 
-        while(i < num ){
-            total += i;
-            i++;
+        if(i > num){
+            max = i;
+            min = num;
+        }
+        else{
+            max = num;
+            min = i;
+        }
+
+        min += 1;
+
+        while(min < max ){
+            total += min;
+            min++;
         }
         System.out.println("두 수 사이의 정수 합계 : " + total);
     }
