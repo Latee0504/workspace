@@ -9,11 +9,17 @@ public class Test10 {
         int[] arr1 = new int[5];
 
         for (int i = 0; i< arr1.length; i++){
-            System.out.println(i+1 + "번째 정수를 입력하세요 : ");
+            System.out.print(i+1 + "번째 정수를 입력하세요 : ");
             arr1[i] = sc.nextInt();
             }
         for (int i = 0; i< arr1.length; i++){
             System.out.print(arr1[i] + " ");
+        }
+
+        System.out.println();
+
+        for (int e : arr1){
+            System.out.print(e + " ");
         }
     }
 }

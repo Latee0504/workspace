@@ -9,11 +9,11 @@ public class Test6 {
         for (int i = 0; i < arr1.length; i++){
             newArr[i] = arr1[i];
         }
-        for (int j = 0; j < arr2.length; j++){
-            newArr[j + arr1.length] = arr2[j];
+        for (int i = 0; i < arr2.length; i++){
+            newArr[i + arr1.length] = arr2[i];
         }
-        for(int k = 0; k < newArr.length; k++){
-            System.out.print(newArr[k] + " ");
+        for(int i = 0; i < newArr.length; i++){
+            System.out.print(newArr[i] + " ");
         }
     }
 }
