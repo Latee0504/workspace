@@ -5,6 +5,7 @@ public class 메서드_2 {
         System.out.println("시작");
         tellYourName();
         tellYourAge();
+        //tellyourAddr();
         System.out.println("종료");
     }
 
