@@ -14,7 +14,7 @@ public class Man {
     }
 
 
-    //3번 값 변경 메서드 (setter : 멤버 변수 각각의 값을 변경하는 메서드)
+    //3번 값 변경 메서드 (setter : 멤버 변수 각각의(하나의) 값을 변경하는 메서드)
     //setter의 이름은 'set(변수명)'으로 반드시 지정
     public void setName(String name){
         this.name = name;
