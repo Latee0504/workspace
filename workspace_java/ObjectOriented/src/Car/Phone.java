@@ -18,7 +18,7 @@ public class Phone {
     //접근제한자 : 클래스, 메서드, 멤버변수에서 사용
     //1. public 프로젝트 내에 존재하면 접근 가능
     //2. default 같은 패키지 내에 있으면 접근 가능
-    //3. protected
+    //3. protected 같은 클래스, 상속받은 클래스 안에서만 접근 가능
     //4. private 변수, 메서드가 선언된 클래스 안에서만 접근가능
 
     private void setPrice(int price){
