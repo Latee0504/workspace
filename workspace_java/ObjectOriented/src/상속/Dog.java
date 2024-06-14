@@ -13,7 +13,8 @@ class Animal{
 
 public class Dog extends Animal{
     @Override
-    public void bark(){
+    public void bark(
+    ){
         System.out.println("멍멍");
     }
 }
