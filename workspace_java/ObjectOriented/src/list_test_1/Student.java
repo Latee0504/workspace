@@ -17,7 +17,7 @@ public class Student {
     }
 
     public double avg(){
-        return (korScore+engScore) /2.0;
+        return (korScore+engScore) / 2.0;
     }
 
     public int getTotal() {

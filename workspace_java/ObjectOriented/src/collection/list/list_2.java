@@ -13,5 +13,7 @@ public class list_2 {
         list2.add(25);
 
         int result = list2.get(1); //15
+
+
     }
 }

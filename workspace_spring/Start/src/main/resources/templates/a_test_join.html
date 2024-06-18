@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- thymeleaf에서 for문 div 태그 이용, 개행 O-->
+  <div th:each="member : ${memberList}">[[${member.name}]]</div>
+
+  <!-- thymeleaf에서 for문, 가짜 태그 이용, 개행 X -->
+  <th:block th:each="m : ${memberList}">
+    [[${m.age}]]
+  </th:block>
+
+
+  <table border="1">
+    <tr>
+      <td>이름</td>
+      <td>나이</td>
+      <td>점수</td>
+    </tr>
+    <tr th:each="member: ${memberList}">
+      <td>[[${member.name}]]</td>
+      <td>[[${member.age}]]</td>
+      <td>[[${member.score}]]</td>
+    </tr>
+  </table>
+
+
+  이름 <input type="text" name="" id=""> <br>
+  연락처 <input type="text" name="" id=""> <br>
+  성별 <input type="radio" name="" id="">남 <input type="radio" name="" id=""> 여 <br>
+  취미 <input type="checkbox" name="" id=""> <br>
+  가입경로 <select name="1.인터넷" id=""></select> <br>
+
+  <button>회원 가입</button> <a href="/amain"><button>뒤로가기</button></a>
+
+  뒤로가기 클릭 시 첫 화면으로 이동.
+</body>
+</html>
